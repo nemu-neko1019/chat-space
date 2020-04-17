@@ -8,7 +8,7 @@
           = link_to new_group_path do
             = icon('fas','edit',class: 'icon')
         %li.list
-          =link_to edit_user_path(current_user) do
+          =link_to edit_user_path(current_user.id) do
             = icon('fas','cog',class: 'icon')
   .groups
     - current_user.groups.each do |group|
