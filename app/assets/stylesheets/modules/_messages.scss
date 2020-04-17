@@ -10,7 +10,7 @@
   width: 300px;
 
   .side-header {
-    background-color: #253141;
+    background-color: $side_blue_dark;
     height: 100px;
     display: flex;
     align-items: center;
@@ -39,7 +39,6 @@
   
   .groups {
     background-color: $side_blue_light;
-    background-color: #2f3e51;
     height: calc(100vh - 100px);
     padding: 20px;
     box-sizing: border-box;
@@ -83,7 +82,7 @@
       }
       ul {
         font-size: 12px;
-        color: #999999;
+        color: $light_gray;
         margin-top: 15px;
         display: flex;
         li {
@@ -98,8 +97,8 @@
 
       &__btn {
         font-size: 16px;
-        color: $blue;
-        border: 1px solid $blue;
+        color: $light_blue;
+        border: 1px solid $light_blue;
         padding: 12px 20px;
         margin-top: 28px;
       }
@@ -130,7 +129,7 @@
       .lower-message {
         margin-top: 12px;
         &__content {
-          color: #434a54;
+          color: $black;
           font-size: 14px;
           margin-bottom: 46px;
         }
@@ -153,7 +152,7 @@
         &__text {
           height: 50px;
           width: 100%;
-          color: #434a54;
+          color: $black;
           border-style: none;
           padding: 0 0px 0 10px;
         }
@@ -175,7 +174,7 @@
         height: 50px;
         padding: 0 30px;
         margin-left: 15px;
-        background-color: $blue;
+        background-color: $light_blue;
         color: $white;
         cursor: pointer;
       }
