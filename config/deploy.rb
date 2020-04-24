@@ -6,7 +6,7 @@ lock '3.13.0'
 set :application, 'chat-space'
 
 # どのリポジトリからアプリをpullするかを指定する
-set :repo_url,  'git@github.com:nemu-neko1019
+set :repo_url, 'git@github.com:nemu-neko1019
 /chat-space.git'
 
 # バージョンが変わっても共通で参照するディレクトリを指定
