@@ -107,6 +107,7 @@
         border: 1px solid $light_blue;
         padding: 12px 20px;
         margin-top: 28px;
+        text-decoration: none;
       }
     }
   }
@@ -165,9 +166,9 @@
         &__image {
           position: absolute;
           right: 10px;
-          top: 13px;
+          top: 11px;
           cursor: pointer;
-          font-size: 1.5rem;
+          font-size: 1.4rem;
 
 
           &__file {  
