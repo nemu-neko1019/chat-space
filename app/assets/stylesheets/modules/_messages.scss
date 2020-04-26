@@ -99,14 +99,13 @@
     }
 
     .main__edit{
-      margin-top: 40px;
+      margin-top: 42px;
 
       &__btn {
         font-size: 16px;
         color: $light_blue;
         border: 1px solid $light_blue;
-        padding: 12px 20px;
-        margin-top: 28px;
+        padding: 11px 20px;
         text-decoration: none;
       }
     }
@@ -166,9 +165,9 @@
         &__image {
           position: absolute;
           right: 10px;
-          top: 11px;
+          top: 10px;
           cursor: pointer;
-          font-size: 1.4rem;
+          font-size: 1.3rem;
 
 
           &__file {  
